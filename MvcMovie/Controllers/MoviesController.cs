@@ -97,10 +97,14 @@ namespace MvcMovie.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Title,ReleaseDate,Genre,Price")] Movie movie)
+        public async Task<IActionResult> Create([Bind("Id,Title,ReleaseDate,Genre,Price,Rating")] Movie movie)
         {
             if (ModelState.IsValid)
             {
+                if (!string.IsNullOrWhiteSpace(movie.Rating))
+                {
+                    movie.Rating = movie.Rating.Trim().ToUpperInvariant();
+                }
                 _context.Add(movie);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -129,7 +133,7 @@ namespace MvcMovie.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,ReleaseDate,Genre,Price")] Movie movie)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,ReleaseDate,Genre,Price,Rating")] Movie movie)
         {
             if (id != movie.Id)
             {
@@ -140,6 +144,10 @@ namespace MvcMovie.Controllers
             {
                 try
                 {
+                    if (!string.IsNullOrWhiteSpace(movie.Rating))
+                    {
+                        movie.Rating = movie.Rating.Trim().ToUpperInvariant();
+                    }
                     _context.Update(movie);
                     await _context.SaveChangesAsync();
                 }
