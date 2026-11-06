@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marti\\Desktop\\BYU\\CSE325\\ASP.NET-Core-UI-MVC\\MvcMovie\\MvcMovie.csproj": {}
+    "C:\\Users\\marti\\Desktop\\BYU\\CSE325\\ASP.NET-Core-UI-MVC\\mvcmovie\\MvcMovie.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marti\\Desktop\\BYU\\CSE325\\ASP.NET-Core-UI-MVC\\MvcMovie\\MvcMovie.csproj": {
+    "C:\\Users\\marti\\Desktop\\BYU\\CSE325\\ASP.NET-Core-UI-MVC\\mvcmovie\\MvcMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marti\\Desktop\\BYU\\CSE325\\ASP.NET-Core-UI-MVC\\MvcMovie\\MvcMovie.csproj",
+        "projectUniqueName": "C:\\Users\\marti\\Desktop\\BYU\\CSE325\\ASP.NET-Core-UI-MVC\\mvcmovie\\MvcMovie.csproj",
         "projectName": "MvcMovie",
-        "projectPath": "C:\\Users\\marti\\Desktop\\BYU\\CSE325\\ASP.NET-Core-UI-MVC\\MvcMovie\\MvcMovie.csproj",
+        "projectPath": "C:\\Users\\marti\\Desktop\\BYU\\CSE325\\ASP.NET-Core-UI-MVC\\mvcmovie\\MvcMovie.csproj",
         "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marti\\Desktop\\BYU\\CSE325\\ASP.NET-Core-UI-MVC\\MvcMovie\\obj\\",
+        "outputPath": "C:\\Users\\marti\\Desktop\\BYU\\CSE325\\ASP.NET-Core-UI-MVC\\mvcmovie\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marti\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,6 +54,10 @@
               "target": "Package",
               "version": "[10.*, )"
             },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[10.0.14, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[10.*, )"
@@ -67,6 +71,18 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[10.0.2, )"
+            },
+            "NuGet.Packaging": {
+              "target": "Package",
+              "version": "[6.12.5, )"
+            },
+            "NuGet.Protocol": {
+              "target": "Package",
+              "version": "[6.12.5, )"
+            },
+            "System.Security.Cryptography.Pkcs": {
+              "target": "Package",
+              "version": "[9.0.21, )"
             }
           },
           "imports": [

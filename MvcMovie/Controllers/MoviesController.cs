@@ -12,9 +12,9 @@ namespace MvcMovie.Controllers
 {
     public class MoviesController : Controller
     {
-        private readonly MvcMovieContext _context;
+        private readonly MvcMovieSqlServerContext _context;
 
-        public MoviesController(MvcMovieContext context)
+        public MoviesController(MvcMovieSqlServerContext context)
         {
             _context = context;
         }
