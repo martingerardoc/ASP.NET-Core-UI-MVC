@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marti\\Desktop\\BYU\\CSE325\\ASP.NET-Core-UI-MVC\\mvcmovie\\MvcMovie.csproj": {}
+    "C:\\Users\\marti\\Desktop\\BYU\\CSE325\\ASP.NET-Core-UI-MVC\\MvcMovie\\MvcMovie.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marti\\Desktop\\BYU\\CSE325\\ASP.NET-Core-UI-MVC\\mvcmovie\\MvcMovie.csproj": {
+    "C:\\Users\\marti\\Desktop\\BYU\\CSE325\\ASP.NET-Core-UI-MVC\\MvcMovie\\MvcMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marti\\Desktop\\BYU\\CSE325\\ASP.NET-Core-UI-MVC\\mvcmovie\\MvcMovie.csproj",
+        "projectUniqueName": "C:\\Users\\marti\\Desktop\\BYU\\CSE325\\ASP.NET-Core-UI-MVC\\MvcMovie\\MvcMovie.csproj",
         "projectName": "MvcMovie",
-        "projectPath": "C:\\Users\\marti\\Desktop\\BYU\\CSE325\\ASP.NET-Core-UI-MVC\\mvcmovie\\MvcMovie.csproj",
+        "projectPath": "C:\\Users\\marti\\Desktop\\BYU\\CSE325\\ASP.NET-Core-UI-MVC\\MvcMovie\\MvcMovie.csproj",
         "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marti\\Desktop\\BYU\\CSE325\\ASP.NET-Core-UI-MVC\\mvcmovie\\obj\\",
+        "outputPath": "C:\\Users\\marti\\Desktop\\BYU\\CSE325\\ASP.NET-Core-UI-MVC\\MvcMovie\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marti\\AppData\\Roaming\\NuGet\\NuGet.Config",
