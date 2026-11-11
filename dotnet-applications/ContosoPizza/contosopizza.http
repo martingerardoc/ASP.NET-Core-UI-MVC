@@ -1,0 +1,113 @@
+@contosopizza_HostAddress = http://localhost:5103
+
+GET {{contosopizza_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+### Get all pizzas
+GET {{contosopizza_HostAddress}}/pizza
+Accept: application/json
+
+### Get pizza by ID
+GET {{contosopizza_HostAddress}}/pizza/1
+Accept: application/json
+
+### Get pizza that does not exist
+GET {{contosopizza_HostAddress}}/pizza/5
+Accept: application/json
+
+### POST - Create a new pizza
+POST {{contosopizza_HostAddress}}/pizza
+Content-Type: application/json
+
+{
+    "name": "Hawaiian",
+    "isGlutenFree": false
+}
+
+### PUT - Update pizza
+PUT {{contosopizza_HostAddress}}/pizza/1
+Content-Type: application/json
+
+{
+    "id": 1,
+    "name": "Updated Classic Italian",
+    "isGlutenFree": true
+}
+
+### DELETE - Delete pizza
+DELETE {{contosopizza_HostAddress}}/pizza/2
+
+
+### POST - Create a new pizza
+POST {{contosopizza_HostAddress}}/pizza
+Content-Type: application/json
+
+{
+    "name": "Hawaii",
+    "isGlutenFree": false
+}
+
+###
+
+### PUT - Update the new pizza
+PUT {{contosopizza_HostAddress}}/pizza/3
+Content-Type: application/json
+
+{
+    "id": 3,
+    "name": "Hawaiian",
+    "isGlutenFree": false
+}
+
+###
+
+### GET - Verify updated pizza
+GET {{contosopizza_HostAddress}}/pizza/3
+Accept: application/json
+
+###
+
+### DELETE - Remove the pizza
+DELETE {{contosopizza_HostAddress}}/pizza/3
+
+###
+
+### GET - Verify remaining pizzas
+GET {{contosopizza_HostAddress}}/pizza
+Accept: application/json
+
+
+### GET - Retrieve all pizzas
+GET {{contosopizza_HostAddress}}/pizza
+Accept: application/json
+
+###
+
+### POST - Create a new pizza
+POST {{contosopizza_HostAddress}}/pizza
+Content-Type: application/json
+
+{
+    "name": "Hawaiian",
+    "isGlutenFree": false
+}
+
+###
+
+### PUT - Update pizza with ID 4
+PUT {{contosopizza_HostAddress}}/pizza/4
+Content-Type: application/json
+
+{
+    "id": 4,
+    "name": "Super Hawaiian",
+    "isGlutenFree": false
+}
+
+###
+
+### DELETE - Remove pizza with ID 4
+DELETE {{contosopizza_HostAddress}}/pizza/4
+
+###

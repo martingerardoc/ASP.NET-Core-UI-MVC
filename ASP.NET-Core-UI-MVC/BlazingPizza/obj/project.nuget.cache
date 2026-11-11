@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qhjDgFJjgYI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\marti\\Desktop\\BYU\\CSE325\\ASP.NET-Core-UI-MVC\\BlazingPizza\\BlazingPizza.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marti\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.14\\microsoft.aspnetcore.app.internal.assets.10.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,23 @@
+# .NET build output
+**/bin/
+**/obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# VS Code
+.vscode/
+
+# NuGet
+*.nupkg
+
+# SQLite databases
+**/*.db
+**/*.db-shm
+**/*.db-wal
+
+# Local configuration backups
+**/appsettings.backup.json
+**/RazorPagesMovieContext.backup.txt

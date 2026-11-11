@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marti\\Desktop\\BYU\\CSE325\\blazingpizza\\BlazingPizza.csproj": {}
+    "C:\\Users\\marti\\Desktop\\BYU\\CSE325\\BlazingPizza\\BlazingPizza.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marti\\Desktop\\BYU\\CSE325\\blazingpizza\\BlazingPizza.csproj": {
+    "C:\\Users\\marti\\Desktop\\BYU\\CSE325\\BlazingPizza\\BlazingPizza.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marti\\Desktop\\BYU\\CSE325\\blazingpizza\\BlazingPizza.csproj",
+        "projectUniqueName": "C:\\Users\\marti\\Desktop\\BYU\\CSE325\\BlazingPizza\\BlazingPizza.csproj",
         "projectName": "BlazingPizza",
-        "projectPath": "C:\\Users\\marti\\Desktop\\BYU\\CSE325\\blazingpizza\\BlazingPizza.csproj",
+        "projectPath": "C:\\Users\\marti\\Desktop\\BYU\\CSE325\\BlazingPizza\\BlazingPizza.csproj",
         "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marti\\Desktop\\BYU\\CSE325\\blazingpizza\\obj\\",
+        "outputPath": "C:\\Users\\marti\\Desktop\\BYU\\CSE325\\BlazingPizza\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marti\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,6 +53,14 @@
               "target": "Package",
               "version": "[10.0.14, )",
               "autoReferenced": true
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[10.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[10.0.14, )"
             }
           },
           "imports": [
